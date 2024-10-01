@@ -1,0 +1,5 @@
+git config --global user.name <git username>
+git config --global user.email <git email address>
+git config --global init.defaultbranch <master/main>
+
+git config --list
