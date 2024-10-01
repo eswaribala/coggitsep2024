@@ -11,4 +11,5 @@ git add .
 git commit -m "updated"
 git remote add origin <remote repo url>
 git pull origin master --allow-unrelated-histories
+git push origin master
 
