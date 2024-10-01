@@ -13,3 +13,32 @@ git remote add origin <remote repo url>
 git pull origin master --allow-unrelated-histories
 git push origin master
 
+#create user1
+create folder user1
+go to user1
+git init
+git remote add origin <remote repo url>
+git pull origin master
+#create user1
+create folder user2
+go to user2
+git init
+git remote add origin <remote repo url>
+git pull origin master
+
+#go to user 1 folder
+modify listdemo.py line 1
+git add .
+git commit -m "updated"
+git push origin master
+#go to user 2 folder
+modify listdemo.py line 1
+git add .
+git commit -m "updated"
+git pull origin master
+
+observer there is a conflict
+
+
+
+
