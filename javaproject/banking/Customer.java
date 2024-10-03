@@ -1,3 +1,3 @@
-class CustomerV1{
+class CustomerV2{
 }
 
