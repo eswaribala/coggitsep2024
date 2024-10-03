@@ -39,6 +39,17 @@ git pull origin master
 
 observer there is a conflict
 
+#configure merge tool
+download meld and install
+git config --global merge.tool "meld"
+git config --global mergetool.meld.path "C:\Program Files\Meld\Meld.exe"
+
+git config --global --edit
+modify mergetool and difftool
+
+to save esc :wq
+to abort esc  :qa!
+
 
 
 
