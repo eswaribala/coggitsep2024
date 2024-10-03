@@ -50,6 +50,19 @@ modify mergetool and difftool
 to save esc :wq
 to abort esc  :qa!
 
+To resolve the conflict
+Go to the folder 
+give the command as
+
+git mergetool
+It visuallly open file differences
+
+Select whatever you wan to keep either user1 or user 2 changes
+
+git commit -m "conclusion message"
+git push origin master
+
+
 
 
 
