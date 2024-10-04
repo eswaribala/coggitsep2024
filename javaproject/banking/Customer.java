@@ -1,4 +1,4 @@
 class CustomerV3{
-private String name;
+private String fullName;
 }
 
